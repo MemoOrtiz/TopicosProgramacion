@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Nodo {
+public class Nodo {
+    int info;
+    Nodo izquierdo,derecho;
+    public Nodo(int dato){
+        info = dato;
+        izquierdo =null;
+        derecho = null;
+    }
 }
