@@ -1,6 +1,7 @@
 public class AppArbolString {
     public static void main(String[]args){
         ArbolString arbolString = new ArbolString();
+
         arbolString.insertar(new NodoString("hola"));
         arbolString.insertar(new NodoString("Edgar"));
         arbolString.insertar(new NodoString("canijo"));
@@ -11,5 +12,6 @@ public class AppArbolString {
         System.out.print("\nEl ARBOL:\n"+arbolString.preorden(arbolString.getRaiz()));
         System.out.print("\nEl ARBOL:\n"+arbolString.entreorden(arbolString.getRaiz()));
         System.out.print("\nEl ARBOL:\n"+arbolString.postorden(arbolString.getRaiz()));
+
     }
 }

@@ -33,6 +33,9 @@ public class ArbolString {
             insertarAuxiliar(raiz, n); // si ya tiene nodos, busca dónde insertarlo usando un método auxiliar
     }
 
+
+
+
     // Método AUXILIAR para insertar RECURSIVO agrega < a la izquierda y >= a la
     // derecha
     public void insertarAuxiliar(NodoString raiz, NodoString n) {
