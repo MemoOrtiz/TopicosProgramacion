@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class Arbol {
     Nodo raiz;
 
@@ -69,4 +71,14 @@ public class Arbol {
         }
     }
 
+    //Captura de n paginas del subterminos
+    public Nodo tomarPaginas(NodoString p){
+        Arbol arbol = new Arbol();
+        int n = Integer.parseInt(JOptionPane.showInputDialog(null, "Inserte Páginas: "));
+        for(int i = 0 ; i<n ; i++){
+            int numeroPaginas = Integer.parseInt(JOptionPane.showInputDialog(null, "Páginas: "));
+            arbol.creaArbolBinario(numeroPaginas);
+        }
+        return arbol.getRaiz();
+    }
 }
